@@ -55,21 +55,8 @@ A realtime meeting-planning platform for collecting availability without partici
 
 </td>
 <td width="50%" valign="top">
-
-### `[02] DEEPSEARCH`
-
-A desktop computer-vision search engine for large image folders. Search by detected objects, inspect bounding boxes and confidence scores, cache results, and parallelize inference.
-
-**Stack:** Electron · Flask · Python · Ultralytics YOLO · OpenCV · multiprocessing
-
-<a href="https://github.com/Selmi-Med-Dhia/DeepSearch"><img src="https://img.shields.io/badge/REPOSITORY-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="DeepSearch repository" /></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### `[03] EUROBOT 2026`
+  
+### `[2] EUROBOT 2026`
 
 **Tunisian team leader · 5th internationally.** I worked on robot navigation and task optimization, bringing embedded control and high-level decision making together on the competition robots.
 
@@ -77,6 +64,20 @@ A desktop computer-vision search engine for large image folders. Search by detec
 
 <a href="https://github.com/Eurobot-2026-Aerobotix"><img src="https://img.shields.io/badge/TEAM_GITHUB-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="Eurobot team GitHub" /></a>
 <a href="https://www.youtube.com/watch?v=EC6gGIbOj7o&list=PLNhKoU2ZKSAGotMFKrfqBCY1hgt4LfQE8"><img src="https://img.shields.io/badge/ROBOT_DEMO-0D1117?style=flat-square&logo=youtube&logoColor=00E5FF" alt="Eurobot demo" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `[03] DEEPSEARCH`
+
+A desktop computer-vision search engine for large image folders. Search by detected objects, inspect bounding boxes and confidence scores, cache results, and parallelize inference.
+
+**Stack:** Electron · Flask · Python · Ultralytics YOLO · OpenCV · multiprocessing
+
+<a href="https://github.com/Selmi-Med-Dhia/DeepSearch"><img src="https://img.shields.io/badge/REPOSITORY-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="DeepSearch repository" /></a>
+
 
 </td>
 <td width="50%" valign="top">
