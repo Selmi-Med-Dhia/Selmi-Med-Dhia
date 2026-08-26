@@ -1,0 +1,51 @@
+name: Update profile telemetry
+
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - scripts/profile_metrics.py
+      - .github/workflows/profile-metrics.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub-native telemetry SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: Selmi-Med-Dhia
+        run: python scripts/profile_metrics.py
+
+      - name: Validate generated files
+        run: |
+          test -s profile/stats.svg
+          test -s profile/contributions.svg
+          grep -q "github.telemetry" profile/stats.svg
+          grep -q "contribution.calendar" profile/contributions.svg
+          git diff --check
+
+      - name: Commit refreshed telemetry
+        run: |
+          if git diff --quiet -- profile/stats.svg profile/contributions.svg; then
+            echo "Telemetry is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/contributions.svg
+          git commit -m "Refresh profile telemetry"
+          git push
