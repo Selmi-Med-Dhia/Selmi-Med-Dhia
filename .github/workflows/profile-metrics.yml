@@ -40,7 +40,7 @@ jobs:
 
       - name: Commit refreshed telemetry
         run: |
-          if git diff --quiet -- profile/stats.svg profile/contributions.svg; then
+          if [ -z "$(git status --porcelain -- profile/stats.svg profile/contributions.svg)" ]; then
             echo "Telemetry is already current."
             exit 0
           fi
