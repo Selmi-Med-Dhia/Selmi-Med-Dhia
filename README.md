@@ -118,13 +118,14 @@ A platform for artisan associations that combines **e-learning** with collaborat
 ## `> github.telemetry`
 
 <div align="center">
-  <img height="170" src="https://github-stats-extended.vercel.app/api?username=Selmi-Med-Dhia&show_icons=true&hide_border=true&bg_color=00000000&title_color=00E5FF&icon_color=00E5FF&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=Selmi-Med-Dhia&hide_border=true&background=00000000&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF&sideLabels=C9D1D9&dates=8B949E&sideNums=C9D1D9&currStreakNum=C9D1D9" alt="GitHub streak" />
+  <img width="100%" src="./profile/stats.svg" alt="GitHub-native profile statistics" />
 </div>
 
 <br />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Selmi-Med-Dhia&bg_color=0D1117&color=C9D1D9&line=00E5FF&point=FFFFFF&area=true&area_color=00E5FF&hide_border=true" alt="Contribution activity graph" />
+<img width="100%" src="./profile/contributions.svg" alt="GitHub-native contribution calendar" />
+
+<sub>Telemetry is generated inside this repository from GitHub's API and refreshed automatically. No third-party stats rendering service is used.</sub>
 
 ### `> contribution.snake`
 
