@@ -115,19 +115,7 @@ A platform for artisan associations that combines **e-learning** with collaborat
 
 ---
 
-## `> github.telemetry`
-
-<div align="center">
-  <img width="100%" src="./profile/stats.svg" alt="GitHub-native profile statistics" />
-</div>
-
-<br />
-
-<img width="100%" src="./profile/contributions.svg" alt="GitHub-native contribution calendar" />
-
-<sub>Telemetry is generated inside this repository from GitHub's API and refreshed automatically. No third-party stats rendering service is used.</sub>
-
-### `> contribution.snake`
+## `> contribution.snake`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Selmi-Med-Dhia/Selmi-Med-Dhia/output/github-contribution-grid-snake-dark.svg" />
