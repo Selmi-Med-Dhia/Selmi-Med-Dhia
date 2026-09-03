@@ -44,19 +44,7 @@ I enjoy problems that refuse to stay in one layer of the stack. My favorite proj
 <tr>
 <td width="50%" valign="top">
 
-### `[01] SYNK`
-
-A realtime meeting-planning platform for collecting availability without participant accounts, visualizing overlap live, and ranking the best meeting times.
-
-**Stack:** Next.js 16 · NestJS 11 · TypeScript · PostgreSQL · Prisma · Socket.IO
-
-<a href="https://github.com/Selmi-Med-Dhia/Synk"><img src="https://img.shields.io/badge/REPOSITORY-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="Synk repository" /></a>
-<a href="https://synk-web-zeta.vercel.app"><img src="https://img.shields.io/badge/LIVE-0D1117?style=flat-square&logo=vercel&logoColor=00E5FF" alt="Synk live" /></a>
-
-</td>
-<td width="50%" valign="top">
-  
-### `[2] EUROBOT 2026`
+### `[01] EUROBOT 2026`
 
 **Tunisian team leader · 5th internationally.** I worked on robot navigation and task optimization, bringing embedded control and high-level decision making together on the competition robots.
 
@@ -66,29 +54,41 @@ A realtime meeting-planning platform for collecting availability without partici
 <a href="https://www.youtube.com/watch?v=EC6gGIbOj7o&list=PLNhKoU2ZKSAGotMFKrfqBCY1hgt4LfQE8"><img src="https://img.shields.io/badge/ROBOT_DEMO-0D1117?style=flat-square&logo=youtube&logoColor=00E5FF" alt="Eurobot demo" /></a>
 
 </td>
+<td width="50%" valign="top">
+
+### `[02] CONTEXT CAPSULE`
+
+A cross-application workspace capture and restore system that preserves coding context across desktop apps, terminals, browsers, and VS Code through a shared local engine.
+
+**Stack:** Rust · Tauri 2 · Svelte 5 · TypeScript · SQLite · WebExtensions · VS Code API
+
+<a href="https://github.com/Context-Capsule"><img src="https://img.shields.io/badge/PROJECT_GITHUB-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="Context Capsule GitHub" /></a>
+<a href="https://github.com/Context-Capsule/Capsule-Desktop-App"><img src="https://img.shields.io/badge/DESKTOP_APP-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="Context Capsule desktop app" /></a>
+
+</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### `[03] DEEPSEARCH`
-
-A desktop computer-vision search engine for large image folders. Search by detected objects, inspect bounding boxes and confidence scores, cache results, and parallelize inference.
-
-**Stack:** Electron · Flask · Python · Ultralytics YOLO · OpenCV · multiprocessing
-
-<a href="https://github.com/Selmi-Med-Dhia/DeepSearch"><img src="https://img.shields.io/badge/REPOSITORY-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="DeepSearch repository" /></a>
-
-
-</td>
-<td width="50%" valign="top">
-
-### `[04] TRI-UP PLATFORM`
+### `[03] TRI-UP PLATFORM`
 
 A platform for artisan associations that combines **e-learning** with collaborative **production and logistics** workflows.
 
 **Stack:** Next.js · NestJS · PostgreSQL · Prisma · MinIO · TypeScript
 
 <img src="https://img.shields.io/badge/PRIVATE_ORG_PROJECT-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="Private organization project" />
+
+</td>
+<td width="50%" valign="top">
+
+### `[04] SYNK`
+
+A realtime meeting-planning platform for collecting availability without participant accounts, visualizing overlap live, and ranking the best meeting times.
+
+**Stack:** Next.js 16 · NestJS 11 · TypeScript · PostgreSQL · Prisma · Socket.IO
+
+<a href="https://github.com/Selmi-Med-Dhia/Synk"><img src="https://img.shields.io/badge/REPOSITORY-0D1117?style=flat-square&logo=github&logoColor=00E5FF" alt="Synk repository" /></a>
+<a href="https://synk-web-zeta.vercel.app"><img src="https://img.shields.io/badge/LIVE-0D1117?style=flat-square&logo=vercel&logoColor=00E5FF" alt="Synk live" /></a>
 
 </td>
 </tr>
